@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CSS + JS Animation Playground</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Interactive Animation Playground</h1>
+
+  <!-- Hover demo -->
+  <button id="hoverBtn">Hover Me</button>
+
+  <!-- Box for chained animations -->
+  <div class="animated-box" id="box"></div>
+  <button id="triggerBtn">Trigger Box Animation</button>
+
+  <!-- Modal trigger -->
+  <button id="openModalBtn">Open Modal</button>
+
+  <!-- Modal -->
+  <div id="modalOverlay" class="modal hidden">
+    <div class="modal-content">
+      <h2>Modal Title</h2>
+      <p>This modal fades in and out using CSS transitions.</p>
+      <button id="closeModalBtn">Close</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
